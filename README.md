@@ -16,6 +16,7 @@ dotenv - to use env file, but only locally on dev
 body-parser
 sanitize-html
 multer (just for book covers - removed later)
+filepond (upload image files and store them into database directly)
 
 ## ref:
 
