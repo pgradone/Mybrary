@@ -17,6 +17,7 @@ body-parser
 sanitize-html
 multer (just for book covers - removed later)
 filepond (upload image files and store them into database directly)
+method-override to be able to make 'put' and 'delete' posts
 
 ## ref:
 
