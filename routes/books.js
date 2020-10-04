@@ -90,7 +90,7 @@ router.put('/:id', async (req, res) => {
     res.redirect(`/books/${book.id}`);
   } catch {
     if (book != null) {
-      renderNewPage(res, book, true);
+      renderEditPage(res, book, true);
     } else {
       redirect('/');
     }
